@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="334.0" prefWidth="600.0" style="-fx-background-image: url('/Users/anmolgupta/Desktop/Semester3/AP/PlantsvsZombies/src/sample/mainmenu.jpg/Users/anmolgupta/Desktop/Semester3/AP/PlantsvsZombies/src/sample/mainmenu.jpg');" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="406.0" fitWidth="600.0" layoutY="-4.0" preserveRatio="true">
+         <image>
+            <Image url="file:/Users/anmolgupta/Desktop/Semester3/AP/PlantsvsZombies/out/production/PlantsvsZombies/sample/mainmenu.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="281.0" layoutY="121.0" mnemonicParsing="false" text="Start" />
+      <Button layoutX="281.0" layoutY="164.0" mnemonicParsing="false" text="Load" />
+      <Button fx:id="exitButton" layoutX="280.0" layoutY="206.0" mnemonicParsing="false" onAction="#exitButtonHandler" prefHeight="27.0" prefWidth="49.0" text="Exit" />
+   </children>
+</AnchorPane>
