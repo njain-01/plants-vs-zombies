@@ -10,4 +10,10 @@ public class ChooseLevelController {
         Main.window.setTitle("Level 1");
         Main.window.setScene(new Scene(root, Main.width, Main.height));
     }
+
+    public void level5Handler() throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("level5.fxml"));
+        Main.window.setTitle("Level 5");
+        Main.window.setScene(new Scene(root, Main.width, Main.height));
+    }
 }

@@ -11,14 +11,29 @@
             <Image url="@../resources/choooselevel.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="138.0" fitWidth="100.0" layoutX="210.0" layoutY="14.0" onMouseClicked="#level1Handler" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="131.0" fitWidth="84.0" layoutX="210.0" layoutY="14.0" onMouseClicked="#level1Handler" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../resources/level1icon.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="138.0" fitWidth="97.0" layoutX="323.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="132.0" fitWidth="84.0" layoutX="317.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../resources/level2lockedicon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="97.0" layoutX="427.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/level3locked.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="84.0" layoutX="378.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/level4locked.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="84.0" layoutX="470.0" layoutY="217.0" onMouseClicked="#level5Handler" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/level5locked.png" />
          </image>
       </ImageView>
    </children>
