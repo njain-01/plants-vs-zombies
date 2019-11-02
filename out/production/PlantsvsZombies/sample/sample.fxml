@@ -12,8 +12,9 @@
             <Image url="file:/Users/anmolgupta/Desktop/Semester3/AP/PlantsvsZombies/out/production/PlantsvsZombies/sample/mainmenu.jpg" />
          </image>
       </ImageView>
-      <Button layoutX="281.0" layoutY="121.0" mnemonicParsing="false" text="Start" />
-      <Button layoutX="281.0" layoutY="164.0" mnemonicParsing="false" text="Load" />
-      <Button fx:id="exitButton" layoutX="280.0" layoutY="206.0" mnemonicParsing="false" onAction="#exitButtonHandler" prefHeight="27.0" prefWidth="49.0" text="Exit" />
+      <Button layoutX="255.0" layoutY="128.0" mnemonicParsing="false" onAction="#startButtonHandler" prefHeight="27.0" prefWidth="101.0" text="Start" />
+      <Button layoutX="253.0" layoutY="164.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="101.0" text="Load" />
+      <Button fx:id="exitButton" layoutX="253.0" layoutY="237.0" mnemonicParsing="false" onAction="#exitButtonHandler" onMouseClicked="#exitButtonHandler" prefHeight="27.0" prefWidth="101.0" text="Exit" />
+      <Button layoutX="254.0" layoutY="200.0" mnemonicParsing="false" text="Choose Level" />
    </children>
 </AnchorPane>
